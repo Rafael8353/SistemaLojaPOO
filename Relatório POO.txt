@@ -1,0 +1,50 @@
+1- Classes e Objetos: Temos diversas classes no projeto e instâncias.
+
+2- Encapsulamento: Temos diversos atributos das classes como Private e acesso por meio de métodos Public com Getters e Setters.
+
+3- Herança: Temos Cliente estende Pessoa, herdando todos os atributos e métodos.
+
+4- Poliformismo: Implementado por meio de interfaces como Gerenciavel, que é implementado por várias classes (Cliente, Produto, Pedido).
+
+5- Sobrecarga e Sobrescrita de Métodos: 
+
+Sobrecarga: Temos diferentes construtores em Cliente e Produto.
+
+Sobrescrita: Métodos da interface Gerenciavel são sobrescritos em classes como Cliente, Produto, Pedido.
+
+6- Classes Abstratas e Interfaces:
+
+Interfaces: Gerenciavel é uma interface que define métodos que devem ser implementados pelas classes que a utilizam.
+Classes Abstratas: Temos Pessoa como classe abstrata no projeto.
+
+7- Coleções: Uso de List e ArrayList para armazenar clientes, produtos, e pedidos.
+
+8- Manipulação de Arquivos: Implementada através dos métodos para exportar e importar dados de clientes em arquivos CSV.
+
+9- Exceções: Manipulação de exceções SQL (SQLException) e outras exceções (NumberFormatException) para tratar erros durante a execução do código.
+
+
+
+Classes: 
+
+Loja.java - Classe principal que gerencia clientes, produtos e pedidos.
+Cliente.java - Representa um cliente na loja.
+Produto.java - Representa um produto na loja.
+Pedido.java - Representa um pedido na loja.
+ProdutoGUI.java - Interface gráfica para gerenciar produtos.
+ClienteGUI.java - Interface gráfica para gerenciar clientes.
+PedidoGUI.java - Interface gráfica para gerenciar pedidos.
+LojaGUI.java - Interface gráfica principal para a aplicação, fornecendo acesso às funcionalidades de gerenciamento de clientes, produtos e pedidos.
+TelaInicial.java - Interface gráfica inicial com um botão "Entrar".
+Gerenciavel.java - Interface para objetos que podem ser gerenciados.
+Entidade.java - Classe abstrata que representa uma entidade com um identificador único.
+Pessoa.java - Classe abstrata que representa uma entidade com nome e email.
+DatabaseConnection.java - Classe utilitária para gerenciar a conexão com o banco de dados.
+Main.java - Classe principal que serve como ponto de entrada para a aplicação.
+
+
+
+
+
+
+
